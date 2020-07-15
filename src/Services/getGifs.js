@@ -10,7 +10,7 @@ export default function getGif({ keyword = "emoji" } = {}) {
       if (Array.isArray(data)) {
         const gifs = data.map((image) => {
           const { id } = image;
-          const { url } = image.images.downsized_medium
+          const { url } = image.images.fixed_height_downsampled
           return { id, url }
         })
         return gifs;
