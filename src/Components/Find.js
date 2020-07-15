@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import "./Find.css"
 import { useLocation } from "wouter";
 
 
 export default function Find() {
-  const [keyword, setKeyword] = useState('');
-  const [path, pushLocation] = useLocation();
+  const [keyword, setKeyword] = useState(''); // eslint-disable-next-line
+  const [path, pushLocation] = useLocation(); 
   
   const handleSubmit = e => {
     e.preventDefault();

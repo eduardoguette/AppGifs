@@ -1,9 +1,22 @@
-
 picture {
-  padding: 0.1em;
-  margin: auto;
+  /* padding: 0.1em;
+  margin: auto;*/
+  animation: collapse ease-in-out 1.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes collapse {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 picture img {
-  object-fit: contain;
+  /*   object-fit: contain; */
+  width: 100% !important;
+  height: auto !important;
+  padding: 0.5em;
+  transition: ease-in 1s;
 }
-
