@@ -1,0 +1,9 @@
+
+picture {
+  padding: 0.1em;
+  margin: auto;
+}
+picture img {
+  object-fit: contain;
+}
+
