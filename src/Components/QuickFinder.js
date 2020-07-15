@@ -3,7 +3,7 @@ import { Link } from "wouter";
 import "./QuickFinder.css"
 
 const populares = [
-  "Feliz","Incomodo","Enfadado", "Asco", "Ups", "Increible", "Nervios", "Amor"
+  "Feliz","Incomodo","Enfadado", "Asco", "Ups", "Increible", "Nervios", "Amor","Hola"
 ]
 
 export default function QuickFinder() {
