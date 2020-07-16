@@ -2,9 +2,9 @@ import React from "react"
 import spinner from "../loading.gif"
 export default function Spinner(){
   return (
-    <div className="spiner">
+    <div className="spinner" id="spinner">
 
-      <img className="spinner" src={spinner} alt="spinner"/>
+      <img className="img-spinner" src={spinner} alt="spinner"/>
     </div>
   )
 }

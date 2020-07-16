@@ -16,7 +16,16 @@ picture {
 }
 picture img {
   border: 10px solid transparent;
-  border-radius: 20px;
+  border-radius: 17px;
   width: 100% !important;
   height: auto !important;
+}
+.img-spinner{
+  height: 3em;
+  width: 3em;
+  position: static;
+  margin: auto;
+  margin-right: -2.45em;
+  /* 
+  margin-left: -.5em; */
 }

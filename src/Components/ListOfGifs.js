@@ -4,7 +4,6 @@ import getGif from '../Services/getGifs'
 import Spinner from './Spinner';
 
 export default function ListOfGifs({ params }) {
-  console.log(params)
   const { keyword } = params
   const [loading, setLoading] = useState(false)
   const [gifs, setGifs] = useState([]);
@@ -23,15 +22,7 @@ export default function ListOfGifs({ params }) {
 
   return <div className="container-cards">
     {
-      loading ? <Spinner /> :
-
-        gifs.map(({ id, url }) =>
-          <Gif
-            key={id}
-            url={url}
-          />
-
-        )
+      loading ? <Spinner /> : gifs.map(({id, url}) =><Gif key={id} url={url} />)
     }
   </div>
 }
