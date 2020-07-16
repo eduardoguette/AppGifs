@@ -29,6 +29,7 @@ button {
   border: none;
   font-weight: bold;
   cursor: pointer;
+  color: var(--ColorBackground2);
 }
 
 input {
@@ -83,6 +84,8 @@ a {
   color: aquamarine;
   text-decoration: none;
   font-weight: 400;
+  text-transform: uppercase;
+  font-size: .9em;
 }
 a:hover {
   color: var(--ColorBackgroundHover);
@@ -147,7 +150,7 @@ h2 {
   .quick-finder {
     overflow: hidden;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
   }
   .quick-finder > a {

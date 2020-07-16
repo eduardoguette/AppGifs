@@ -4,7 +4,7 @@ picture {
   width: 100% !important;
   height: auto !important;
   
-  animation: collapse ease-in-out 2s;
+  animation: collapse ease-in-out 3s;
   animation-fill-mode: backwards;
 }
 
