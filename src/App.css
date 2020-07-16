@@ -25,7 +25,7 @@ button {
   margin: 0 1em;
   border-radius: 20px;
   padding: 1em;
-  background-color: aquamarine;
+  background-color: #7fffd4;
   border: none;
   font-weight: bold;
   cursor: pointer;
@@ -63,21 +63,14 @@ input:focus {
   }
 }
 .container-cards {
-  /*   width: 95%;
-margin: auto;
-display: grid;
-grid-template-columns: 1fr 1fr;
-justify-content: center;
-text-align: center; */
   line-height: 0;
-
   -webkit-column-count: 2;
   -webkit-column-gap: 0;
   -moz-column-count: 2;
-  -moz-column-gap:0;
+  -moz-column-gap: 0;
   column-count: 2;
   column-gap: 0;
-  animation: collapse ease-in-out 5s;
+  animation: collapse ease-in-out 2s;
   animation-fill-mode: both;
 }
 a {
@@ -85,7 +78,7 @@ a {
   text-decoration: none;
   font-weight: 400;
   text-transform: uppercase;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 a:hover {
   color: var(--ColorBackgroundHover);
@@ -93,7 +86,18 @@ a:hover {
 h2 {
   font-weight: 400;
 }
-
+.spinner {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: -1.5em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+}
 /*Responsive*/
 
 @media screen and (min-width: 480px) {
