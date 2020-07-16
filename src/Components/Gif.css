@@ -3,9 +3,7 @@ picture {
   margin: auto;*/
   width: 100% !important;
   height: auto !important;
-  
-  animation: collapse ease-in-out 1.5s;
-  animation-fill-mode: backwards;
+
 }
 
 @keyframes collapse {
@@ -21,6 +19,4 @@ picture img {
   border-radius: 20px;
   width: 100% !important;
   height: auto !important;
-  animation: collapse ease-in-out 1s;
-  animation-fill-mode: both;
 }
