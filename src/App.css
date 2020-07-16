@@ -52,21 +52,32 @@ input:focus {
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
+
+@keyframes collapse {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .container-cards {
-/*   width: 95%;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-  text-align: center; */
+  /*   width: 95%;
+margin: auto;
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-content: center;
+text-align: center; */
   line-height: 0;
-   
+
   -webkit-column-count: 2;
-  -webkit-column-gap:   0px;
-  -moz-column-count:    2;
-  -moz-column-gap:      0px;
-  column-count:         2;
-  column-gap:           0px;  
+  -webkit-column-gap: 0;
+  -moz-column-count: 2;
+  -moz-column-gap:0;
+  column-count: 2;
+  column-gap: 0;
+  animation: collapse ease-in-out 5s;
+  animation-fill-mode: both;
 }
 a {
   color: aquamarine;
@@ -94,13 +105,13 @@ h2 {
   }
   .container-cards {
     line-height: 0;
-   
+
     -webkit-column-count: 3;
-    -webkit-column-gap:   0px;
-    -moz-column-count:    3;
-    -moz-column-gap:      0px;
-    column-count:         3;
-    column-gap:           0px;  
+    -webkit-column-gap: 0px;
+    -moz-column-count: 3;
+    -moz-column-gap: 0px;
+    column-count: 3;
+    column-gap: 0px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -110,13 +121,13 @@ h2 {
   .container-cards {
     text-align: center;
     line-height: 0;
-   
+
     -webkit-column-count: 4;
-    -webkit-column-gap:   0px;
-    -moz-column-count:    4;
-    -moz-column-gap:      0px;
-    column-count:         4;
-    column-gap:           0px;  
+    -webkit-column-gap: 0px;
+    -moz-column-count: 4;
+    -moz-column-gap: 0px;
+    column-count: 4;
+    column-gap: 0px;
   }
 }
 @media screen and (min-width: 1150px) {
@@ -125,13 +136,13 @@ h2 {
   }
   .container-cards {
     line-height: 0;
-   
+
     -webkit-column-count: 5;
-    -webkit-column-gap:   0px;
-    -moz-column-count:    5;
-    -moz-column-gap:      0px;
-    column-count:         5;
-    column-gap:           0px;  
+    -webkit-column-gap: 0px;
+    -moz-column-count: 5;
+    -moz-column-gap: 0px;
+    column-count: 5;
+    column-gap: 0px;
   }
   .quick-finder {
     overflow: hidden;
@@ -158,12 +169,12 @@ h2 {
   }
   .container-cards {
     line-height: 0;
-   
+
     -webkit-column-count: 7;
-    -webkit-column-gap:   0px;
-    -moz-column-count:    7;
-    -moz-column-gap:      0px;
-    column-count:         7;
-    column-gap:           0px;  
+    -webkit-column-gap: 0px;
+    -moz-column-count: 7;
+    -moz-column-gap: 0px;
+    column-count: 7;
+    column-gap: 0px;
   }
 }

@@ -1,8 +1,11 @@
 picture {
   /* padding: 0.1em;
   margin: auto;*/
-  animation: collapse ease-in-out 1.5s;
-  animation-fill-mode: both;
+  width: 100% !important;
+  height: auto !important;
+  
+  animation: collapse ease-in-out 2s;
+  animation-fill-mode: backwards;
 }
 
 @keyframes collapse {
@@ -14,9 +17,10 @@ picture {
   }
 }
 picture img {
-  /*   object-fit: contain; */
+  border: 10px solid transparent;
+  border-radius: 20px;
   width: 100% !important;
   height: auto !important;
-  padding: 0.5em;
-  transition: ease-in 1s;
+  animation: collapse ease-in-out 1s;
+  animation-fill-mode: both;
 }
