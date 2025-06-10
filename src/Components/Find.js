@@ -19,7 +19,7 @@ export default function Find() {
     <div className="finder">
       <form onSubmit={handleSubmit}>
         <input type="text" className="data" onChange={handleChange} />
-        <button className="search" onChange={handleChange}>Search</button>
+        <button type="submit" className="search">Search</button>
       </form>
     </div>
   )
