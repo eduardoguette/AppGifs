@@ -1,4 +1,4 @@
-const apiKey = "fzId3VBuREjibqafqpDWOufrEfE0rw3r";
+const apiKey = process.env.REACT_APP_GIPHY_KEY;
 
 export default function getGif({ keyword = "emoji" } = {}) {
   const apiUrl = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${keyword}&limit=50&offset=0&rating=g&lang=es`;
