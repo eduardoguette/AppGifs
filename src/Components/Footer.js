@@ -9,13 +9,13 @@ export default function Footer() {
     <div className="footer">
       <p>Hecho por Eduardo Guette </p>
       <div className="socialLogos">
-        <a target="_blanck" href="https://twitter.com/eduardoguette" className="social" >
+        <a target="_blank" href="https://twitter.com/eduardoguette" className="social" >
           <img src={logoTwitter} alt="twitter" />
         </a>
-        <a target="_blanck" href="https://instagram.com/eduardoguette" className="social" >
+        <a target="_blank" href="https://instagram.com/eduardoguette" className="social" >
           <img src={logoInstagram} alt="instagram" />
         </a>
-        <a target="_blanck" href="https://github.com/eduardoguette" className="social" >
+        <a target="_blank" href="https://github.com/eduardoguette" className="social" >
           <img src={logoGit} alt="git" />
         </a>
       </div>
